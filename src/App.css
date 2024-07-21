@@ -1,0 +1,71 @@
+form {
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.155);
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: #11111182;
+  font-weight: 400;
+}
+
+hr {
+  border: 1px solid #1111110f;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+  width: 90%;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid #1111110f;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn button {
+  padding: 10px;
+  flex: 1 0 50px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 200;
+  font-size: medium;
+}
+
+.cancel-btn {
+  background-color: rgba(255, 0, 0, 0.615);
+  color: white;
+}
+
+.submit-btn {
+  background-color: rgba(0, 128, 0, 0.767);
+  color: white;
+}
+
+a{
+  color: rgba(0, 0, 255, 0.453);
+}
